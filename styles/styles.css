@@ -1,0 +1,420 @@
+
+#home-body {
+    background-color: rgba(107, 112, 92, 1);
+}
+
+/* Text Selection Styling */
+::selection {
+    background-color: rgba(187, 62, 3, 0.80);
+    color: rgba(227, 213, 202, 1);
+}
+
+/* Scrollbar Styling */
+    * {
+        scrollbar-width: thin;
+        scrollbar-color: rgba(0, 0, 0, 0.35) transparent;
+    }
+
+/* Navigation Bar */
+    #navigation-bar {
+        background-color: rgba(203, 153, 126, 1);
+        border: 2px solid rgba(202, 103, 2, 0.75);
+    }
+    #navigation-bar a:hover {
+        color: rgba(155, 34, 38, 1);
+    }
+    #navigation-bar a:active {
+        color: rgba(155, 34, 38, 1);
+    }
+    #logo {
+        font-size: 22px;
+        color: rgba(0, 0, 0, 0.85);
+        font-weight: 400;
+        text-shadow: 1px 1px 2px rgba(107, 112, 92, 1);
+        text-decoration: none;
+    }
+    .pages {
+        color: rgba(0, 0, 0, 0.75);
+        text-shadow: 1px 1px 2px rgba(107, 112, 92, 0.5);
+    }
+    #contact-button {
+        color: rgba(0, 0, 0, 0.75);
+        font-weight: 600;
+        background-color: rgba(244, 162, 97, 0.75);
+        padding: 5px 10px;
+        border: 2px solid rgba(220, 20, 60, 0.3);
+        border-radius: 5px;
+    }
+
+/* Landing */
+    #landing {
+        background-color: rgba(227, 213, 202, 1);
+        border: 2px solid rgba(187, 133, 136, 1);
+        margin-top: 25px;
+    }
+    #landing-1 {
+        padding: 20px 20px 0px 20px;
+        position: relative;
+    }
+    #landing-1-rule {
+        position: absolute;
+        right: 0;
+        top: 30px;
+        bottom: 30px;
+        width: 1px;
+        background-color: rgba(0, 0, 0, 0.25);
+    }
+    #landing-2 {
+        padding: 20px;
+    }
+    #landing-3 {
+        padding: 20px 20px 10px 20px;
+        position: relative;
+    }
+    #landing-3-rule {
+        position: absolute;
+        left: 0;
+        top: 30px;
+        bottom: 30px;
+        width: 1px;
+        background-color: rgba(0, 0, 0, 0.25);
+    }
+    #landing-header {
+        font-weight: 700;
+        color: rgba(0, 0, 0, 0.65);
+        text-shadow: 2px 2px 3px rgba(203, 153, 126, 0.40);
+    }
+    .landing-bold {
+        font-weight: 600;
+    }
+    #profile-picture {
+        max-width: 100%;
+        height: auto;
+    }
+    #landing a {
+        color: rgba(187, 62, 3, 0.80);
+        font-weight: 600;
+    }
+    #landing a:hover {
+        color: rgba(155, 34, 38, 1);
+    }
+    #landing a:active {
+        color: rgba(155, 34, 38, 1);
+    }
+
+/* Carousel */
+    #carousel-container {
+        padding: 0 !important;
+        margin-top: 25px;
+        border: 2px solid rgba(187, 133, 136, 1);
+        background-color: rgba(119, 141, 169, 0.75);
+    }
+    #carousel-container a {
+        color: rgba(0, 0, 0, 0.75);
+        font-weight: 600;
+        text-decoration: none;
+    }
+    #carousel-container a:hover {
+        color: rgba(0, 0, 0, 1);
+    }
+    #carousel-container a:active {
+        color: rgba(0, 0, 0, 1);
+    }
+    .carousel-height {
+        height: 295px;
+    }
+    #carousel-image-1 {
+        width: 100%;
+        height: auto;
+        filter: opacity(0.5);
+    }
+    #carousel-image-2 {
+        width: 100%;
+        height: auto;
+        filter: opacity(0.25);
+    }
+    #carousel-image-3 {
+        width: 100%;
+        height: auto;
+        filter: opacity(0.15);
+    }
+    .caption-wide {
+        display: none;
+    }
+    .caption-narrow {
+        display: block;
+    }
+    @media (max-width: 1199px) {
+        .caption-wide {
+            display: block;
+        }
+    }
+    @media (max-width: 1199px) {
+        .caption-narrow {
+            display: none;
+        }
+    }
+    .slide-1-header {
+        font-weight: 600;
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    }
+    .slide-1-text {
+        font-weight: 400;
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    }
+    .slide-2-header {
+        color: rgba(253, 252, 220, 1);
+        font-weight: 600;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    }
+    .slide-2-text {
+        color: rgba(253, 252, 220, 1);
+        font-weight: 400;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.75);
+    }
+    .slide-3-header {
+        color: rgba(239, 239, 208, 1);
+        font-weight: 600;
+        text-shadow: 1px 1px 2px rgba(220, 20, 60, 0.50);
+    }
+    .slide-3-text {
+        color: rgba(239, 239, 208, 1);
+        font-weight: 400;
+        text-shadow: 1px 1px 2px rgba(220, 20, 60, 0.50);
+    }
+    .carousel-button {
+        margin-bottom: 20px;
+        background-color: rgba(203, 153, 126, 1);
+        padding: 5px 10px;
+        border: 2px solid rgba(220, 20, 60, 0.40);
+        border-radius: 5px;
+    }
+
+/* Section */
+    #section-container {
+        margin-top: 25px;
+    }
+    #section {
+        background-color: rgba(183, 183, 164, 1);
+        border: 2px solid rgba(107, 112, 92, 0.50);
+        overflow: auto;
+        height: 295px;
+    }
+    #cv-header {
+        color: rgba(0, 0, 0, 0.65);
+        font-size: 40px;
+        font-weight: 600;
+        text-shadow: 1px 1px 2px rgba(203, 153, 126, 0.40);
+    }
+    #interests-header {
+        color: rgba(0, 0, 0, 0.65);
+        font-size: 40px;
+        font-weight: 600;
+        text-shadow: 1px 1px 2px rgba(203, 153, 126, 0.40);
+    }
+    .cv-title {
+        text-decoration: underline;
+        color: rgba(69, 9, 32, 0.85);
+        font-weight: 700;
+    }
+    .cv-subtitle {
+        color: rgba(0, 0, 0, 0.9);
+        font-weight: 600;
+    }
+    .cv-duration {
+        color: rgba(0, 0, 0, 0.75);
+        font-weight: 500;
+    }
+    .cv-bold {
+        color: rgba(0, 0, 0, 0.75);
+        font-weight: 500;
+    }
+    #section-2 {
+        background-color: rgba(183, 183, 164, 1);
+        border: 2px solid rgba(107, 112, 92, 0.50);
+        overflow: auto;
+        height: 295px;
+    }
+    #section-2-nav {
+        padding-top: 5px;
+    }
+    #art-picture {
+        max-width: 100%;
+        height: auto;
+        padding: 5px;
+        margin-bottom: 15px;
+        border: 1px solid rgba(0, 0, 0, 0.5);
+    }
+    #music-picture {
+        max-width: 100%;
+        height: auto;
+        padding: 5px;
+        margin-top: 3px;
+        margin-bottom: 15px;
+        border: 1px solid rgba(0, 0, 0, 0.5);
+    }
+    #fashion-picture {
+        max-width: 100%;
+        height: auto;
+        padding: 5px;
+        margin-top: 3px;
+        margin-bottom: 15px;
+        border: 1px solid rgba(0, 0, 0, 0.5);
+    }
+    #section a {
+        color: rgba(0, 95, 115, 0.75);
+        font-weight: 600;
+    }
+    #section a:hover {
+        color: rgba(38, 70, 83, 1);
+    }
+    #section a:active {
+        color: rgba(38, 70, 83, 1);
+    }
+    #section-2 a {
+        color: rgba(69, 9, 32, 0.85);
+        font-weight: 700;
+    }
+    #section-2 a:hover {
+        color: rgba(0, 0, 0, 1);
+    }
+    #section-2 a:active {
+        color: rgba(0, 0, 0, 1);
+    }
+
+/* Footer */
+    #footer {
+        background-color: rgba(203, 153, 126, 1);
+        border: 2px solid rgba(202, 103, 2, 0.75)
+    }
+    #footer-header {
+        font-size: 20px;
+        color: rgba(0, 0, 0, 0.50);
+        font-weight: 500;
+        text-shadow: 2px 2px 4px rgba(107, 112, 92, 0.75);
+    }
+    .icon {
+        font-size: 20px;
+    }
+    .icon-space {
+        visibility: hidden;
+    }
+    .border-bottom {
+        border-color: rgba(0, 0, 0, 0.30) !important;
+    }
+    #footer a:hover {
+        color: rgba(155, 34, 38, 1);
+    }
+    #footer a:active {
+        color: rgba(155, 34, 38, 1);
+    }
+
+/* Projects Landing */
+    #project-landing {
+        margin-top: 45px;
+        background-image: url('../images/dtc_excel_blur.jpg');
+        border: 2px solid rgba(187, 133, 136, 1);
+    }
+    #project-landing-header {
+        color: rgba(0, 0, 0, 0.65);
+        font-weight: 700;
+        text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.75);
+    }
+    #project-landing-text {
+        color: rgba(0, 0, 0, 0.7);
+        font-weight: 500;
+        font-size: 18px;
+        text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.7);
+    }
+
+/* Projects Album */
+    .album-image {
+        height: 225px;
+        background-color: rgba(119, 141, 169, 0.75);
+    }
+    .article-styling {
+        background-color: rgba(183, 183, 164, 1) !important;
+        border: 2px solid rgba(107, 112, 92, 0.50) !important;
+    }
+    #car-tests-thumbnail {
+        width: 100%;
+        height: auto;
+        filter: opacity(0.5);
+    }
+    #article-2-thumbnail {
+        width: 100%;
+        height: auto;
+        filter: opacity(0.25);
+    }
+    #article-3-thumbnail {
+        width: 100%;
+        height: auto;
+        filter: opacity(0.15);
+    }
+    .album-button {
+        background-color: rgba(203, 153, 126, 1);
+        padding: 5px 10px;
+        border: 2px solid rgba(220, 20, 60, 0.40);
+        border-radius: 5px;
+    }
+    .album a {
+        color: rgba(0, 0, 0, 0.75);
+        font-weight: 600;
+        text-decoration: none;
+    }
+    .album a:hover {
+        color: rgba(0, 0, 0, 1);
+    }
+    .album a:active {
+        color: rgba(0, 0, 0, 1);
+    }
+
+/* Car Tests Article */
+    #car-tests-container {
+        margin-top: 25px;
+        margin-bottom: 25px;
+        padding: 25px;
+        background-color: rgba(183, 183, 164, 1);
+        border: 2px solid rgba(107, 112, 92, 0.50);
+    }
+    .article-image {
+        max-width: 100%;
+        height: auto;
+        padding: 5px;
+        margin-bottom: 15px;
+        border: 1px solid rgba(0, 0, 0, 0.5);
+    }
+    #article-title {
+        color: rgba(0, 0, 0, 0.65);
+        font-weight: 700;
+    }
+    .article-subtitle {
+        color: rgba(0, 0, 0, 0.7);
+        font-weight: 600;
+    }
+    #article a {
+        color: rgba(0, 95, 115, 0.75);
+        font-weight: 600;
+    }
+    #article a:hover {
+        color: rgba(69, 9, 32, 0.85);
+    }
+    #article a:active {
+        color: rgba(69, 9, 32, 0.85);
+    }
+
+/* Other Interests Page */
+    #interests-container {
+        margin-top: 25px;
+        margin-bottom: 25px;
+        padding: 25px;
+        background-color: rgba(183, 183, 164, 1);
+        border: 2px solid rgba(107, 112, 92, 0.50);
+    }
+    .interests-image {
+        max-width: 100%;
+        height: auto;
+        padding: 5px;
+        margin-bottom: 15px;
+        border: 1px solid rgba(0, 0, 0, 0.5);
+    }
